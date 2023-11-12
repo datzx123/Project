@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+header {
+  background-image: url(./image/ac5a1d6a11a3d6453fa57eb66e0e4bbe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+  header {
+    background-color: #0086d1;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: inline-block;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  margin-left: 10px;
+}
+
+.cart-icon a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cart-icon i {
+  font-size: 20px;
+}
+.buy-now {
+  margin-top: 10px;
+}
+
+.btn-buy {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0086d1;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-buy:hover {
+  background-color: #099fe0;
+}
+.add-to-cart {
+  height: 40px;
+}
+
+.btn-add-to-cart {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0086d1;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #099fe0;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav a {
+  color: #000000;
+  text-decoration: none;  
+  margin-right: 20px;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+.slideshow {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.slideshow ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow ul li {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.slideshow ul li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideshow ul li .caption {
+  margin-top: 20px;
+}
+
+.slideshow ul li .caption h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.slideshow ul li .caption p {
+  font-size: 16px;
+}
+
+.danh-muc {
+  margin-top: 20px;
+}
+
+.danh-muc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.danh-muc ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.danh-muc ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.tim-kiem-moi {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tim-kiem-moi .icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.tim-kiem-moi .icon i {
+  font-size: 20px;
+  color: #000;
+}
+
+.tim-kiem-moi input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #000;
+}
+
+.tim-kiem-moi button {
+  width: 100%;
+  height: 40px;
+  background-color: #099fe0;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #099fe0;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}

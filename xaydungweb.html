@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Sàn mua bán doanh nghiệp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <?php include("functions.php"); ?>
+
+  <header>
+    <div class="logo">
+      <a href="index.php">
+        <img src="./image/logo-con-meo-24.gif" alt="Logo">
+      </a>
+    </div>
+    <nav class="nav">
+      <a href="index.php">Trang chủ</a>
+      <a href="gioi-thieu.php">Giới thiệu</a>
+      <a href="tin-tuc.php">Tin tức</a>
+      <a href="lien-he.php">Liên hệ</a>
+      <a href="San-pham.php">Sản Phẩm</a>
+    </nav>
+    <div class="logo">
+        <a href="index.php">
+          <img src="./image/R.gif" alt="Logo">  
+        </a>
+        <div class="cart-icon">
+          <a href="gio-hang.php">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </div>
+      </div>
+  </header>       
+  <section class="tim-kiem-moi">
+    <div class="icon">
+      <i class="fas fa-search"></i>
+    </div>
+    <input type="text" name="timkiem" placeholder="Tìm kiếm doanh nghiệp theo tên, ngành nghề, địa điểm,...">
+    <button type="submit">Tìm kiếm</button>
+  </section>
+
+  <section class="slideshow">
+    <ul>
+      <li>
+        <img src="./image/dev.jpg" alt="Slideshow 1">
+        <div class="caption">
+          <h2>Doanh nghiệp Devmaster</h2>
+          <p>Là một công ty chuyên cung cấp dịch vụ thiết kế website, lập trình web,...</p>
+        </div>
+        <div class="buy-now">
+          <a href="mua-ngay.php" class="btn-buy">Mua Ngay</a>
+        </div>
+        <div class="add-to-cart">
+          <a href="them-vao-gio-hang.php" class="btn-add-to-cart">Thêm vào giỏ hàng</a>
+        </div>
+      </li>
+      <li>
+        <img src="./image/f88.jpg" alt="Slideshow 2">
+        <div class="caption">
+          <h2>Doanh nghiệp FB88</h2>
+          <p>Là một công ty chuyên cung cấp dịch vụ cá cược trực tuyến,...</p>
+        </div>
+        <div class="buy-now">
+          <a href="mua-ngay.php" class="btn-buy">Mua Ngay</a>
+        </div>
+        <div class="add-to-cart">
+          <a href="them-vao-gio-hang.php" class="btn-add-to-cart">Thêm vào giỏ hàng</a>
+        </div>
+      </li>
+      <li>
+        <img src="./image/twtitter.jpg" alt="Slideshow 3">
+        <div class="caption">
+          <h2>Doanh nghiệp Twitter</h2>
+          <p>Là một công ty chuyên cung cấp dịch vụ mạng xã hội,...</p>
+        </div>
+        <div class="buy-now">
+          <a href="mua-ngay.php" class="btn-buy">Mua Ngay</a>
+        </div>
+        <div class="add-to-cart">
+          <a href="them-vao-gio-hang.php" class="btn-add-to-cart">Thêm vào giỏ hàng</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="danh-muc">
+    <h2>Danh mục doanh nghiệp</h2>
+    <ul>
+      <li><a href="#">Doanh nghiệp công nghệ</a></li>
+      <li><a href="#">Doanh nghiệp thương mại</a></li>
+      <li><a href="#">Doanh nghiệp dịch vụ</a></li>
+      <li><a href="#">Doanh nghiệp sản xuất</a></li>
+      
+    </ul>
+  </section>
+
+  <footer>
+    <p>Copyright &copy; 2023 Sàn mua bán doanh nghiệp</p>
+  </footer>
+
+</body>
+</html>
